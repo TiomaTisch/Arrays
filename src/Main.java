@@ -34,18 +34,14 @@ public class Main {
 
         System.out.println("_______Задание 3_______");
 
-        float averageExpenses = totalExpenses/bookExpenses.length;
+        float averageExpenses = (float) totalExpenses /bookExpenses.length;
         System.out.println("Средняя сумма трат за месяц составила " + averageExpenses +" рублей");
 
         System.out.println("_______Задание 4_______");
 
         char[] reverseFullName = { 'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
-        char[] FullName = new char[reverseFullName.length];
         for (int i = reverseFullName.length-1; i >= 0; i--) {
-
-            FullName[i] = reverseFullName[i];
-
-            System.out.print(FullName[i]);
+            System.out.print(reverseFullName[i]);
         }
         System.out.println();
     }
